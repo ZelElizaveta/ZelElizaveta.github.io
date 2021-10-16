@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+position: relative;
+}
+
+.fixed {
+    position:absolute;
+    position:fixed;
+    width: 100%;
+}
+
+nav {
+    height: 51px;
+    background-color: #212121;  
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    transform: translateY(51px);
+    width: 100%;
+    min-height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 18px 0 18px 0;
+}
+
+.col-md-4 .subheader_logo {
+    max-width: 100%;
+}
+
+.col-md-4 .logo_text {
+    font-size: 13px;
+    font-weight: 300;
+    color:#ffffff;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.col-md-2 .call_text {
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.col-md-2 a {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 1px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    line-height: 32px;
+}
+
+.col-md-2 .button_subheader {
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 5%;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 799px;
+    background:url('../img/BG_header.jpg') center center/cover no-repeat;
+    padding: 200px 0 132px 0;
+    
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_header {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.promo .promo_text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 33px;
+    text-align: center;
+   
+}
+
+.promo .promo_text_two {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 5%;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    margin-top: 120px;
+
+}
+
+.advantages {
+    min-height: 900px;
+    padding: 70px 0 70px 0;   
+}
+
+ .advantages .label {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+ .advantages.titel {
+    font-size: 38px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 37px 0 30px 0;
+}
+
+.advantages .advantages_wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 145px;
+    margin-top:30px;
+}
+
+.advantages_wrapper .advantages_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.advantages_wrapper .advantages_text {
+    width: 341px;
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    text-align: justify;
+}
+
+span {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+
